@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+.logo {
+    display: inline-block;
+    margin-left: 20px;
+    height: 80px;
+}
+
+.navbar-item {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    line-height: 20px;
+}
+
+.navbar-item-container {
+    display: inline-block;
+    text-align: center;
+    width: 150px;
+}
+
+.dealer {
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.navbar-item:hover {
+    color: #8bc34a;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.body {
+    margin-top: 110px;
+}
+
+.product-container {
+    height: 350px;
+}
+
+.product-image {
+    height: 250px;
+}
+
+
+@media (min-width: 600px) {
+    .carousel {
+        height: 600px;
+    }
+
+    .carousel-image {
+        height: 600px;
+
+    }
+}
+
+@media (max-width: 600px) {
+    .carousel {
+        height: 300px;
+    }
+
+    .carousel-image {
+        height: 300px;
+        width: 100vw;
+    }
+    .product-container {
+        height: 300px;
+    }
+
+    .product-image {
+        height: 200px;
+    }
+}
